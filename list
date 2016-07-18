@@ -1,0 +1,24 @@
+public class List {
+        public static void main(String[] args) {
+
+            ArrayList list = new ArrayList();
+            int a = 1;
+            int b = 2;
+            int c = 3;
+
+            list.add(a);
+            list.add(b);
+            list.add(c);
+
+            Integer Q = (Integer)list.get(0);
+            Integer W = (Integer)list.get(1);
+            Integer E = (Integer)list.get(2);
+
+            System.out.println(list);
+            int s = 4;
+            list.set(0, a * s);
+            list.set(1, b * s);
+            list.set(2, c * s);
+            System.out.println(list);
+        }
+    }
